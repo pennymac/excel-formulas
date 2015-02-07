@@ -6,9 +6,10 @@ Excel formuals ported to Clojure
 
 ``` clojure
 (ns test-drive.core
-  (:require [com.pennymacusa.excel-formulas :refer [days360]]))
+  (:require [com.pennymacusa.excel-formulas :refer [days360]]
+            [clj-time.parse :as f]))
   
-(days360 "2015-02-14" "2015-08-30")
+(days360 (f/parse "2015-02-14") (f/parse "2015-08-30"))
 ```
 
 ## License

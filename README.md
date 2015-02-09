@@ -1,4 +1,5 @@
 # excel-formulas
+[![Build Status](https://travis-ci.org/dyba/fellowship-one.svg)](https://travis-ci.org/dyba/fellowship-one)
 
 Excel formuals ported to Clojure
 

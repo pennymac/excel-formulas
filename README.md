@@ -1,5 +1,5 @@
 # excel-formulas
-[![Build Status](https://travis-ci.org/dyba/fellowship-one.svg)](https://travis-ci.org/dyba/fellowship-one)
+[![Build Status](https://travis-ci.org/pennymac/excel-formulas.svg?branch=master)](https://travis-ci.org/pennymac/excel-formulas)
 
 Excel formuals ported to Clojure
 

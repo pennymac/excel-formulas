@@ -3,6 +3,14 @@
             [clj-time.format :as f]
             [clj-time.predicates :as p]))
 
+(defn abs
+  "Calculates the absolute value of a number."
+  {:added "0.2.1"}
+  [n]
+  (if (pos? n)
+    n
+    (- n)))
+
 (defn days360
   "Calculates the number of days between a start-date and end-date according to
   a 360-day year. Expects date-time objects."

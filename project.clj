@@ -1,4 +1,4 @@
-(defproject com.pennymacusa/excel-formulas "0.2.0"
+(defproject com.pennymacusa/excel-formulas "0.2.1-SNAPSHOT"
   :description "Excel formulas ported to Clojure"
   :url "https://github.com/pennymac/excel-formulas"
   :license {:name "Eclipse Public License"
